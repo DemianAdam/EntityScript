@@ -1,0 +1,62 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage and build outputs
+coverage/
+.nyc_output/
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Google Apps Script / clasp
+.clasp.json
+.clasprc.json
+.credentials.json
+service_account.json
+
+# Optional: local npm debug or lock files you don't want tracked
+npm-debug.log*
+
+# Misc
+coverage/
+reports/
+
+# Ignore local IDE history or temporary files
+.history/
+
+# Ignore IntelliJ/WebStorm workspace files
+.idea/
+
+# Ignore local build artifacts
+tmp/
+
+# Keep package-lock.json tracked (recommended) - remove the line below if you prefer otherwise
+# package-lock.json
